@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Core", "TextAnalyzer.Core\TextAnalyzer.Core.csproj", "{329A0471-8510-4DF5-A606-057B70A329EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Console", "TextAnalyzer.Console\TextAnalyzer.Console.csproj", "{DDA22804-7F5F-4746-83F1-72002BBDD088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Api", "TextAnalyzer.Api\TextAnalyzer.Api.csproj", "{42837A90-924C-4207-817B-A9E92FE231CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329A0471-8510-4DF5-A606-057B70A329EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329A0471-8510-4DF5-A606-057B70A329EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329A0471-8510-4DF5-A606-057B70A329EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329A0471-8510-4DF5-A606-057B70A329EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA22804-7F5F-4746-83F1-72002BBDD088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA22804-7F5F-4746-83F1-72002BBDD088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA22804-7F5F-4746-83F1-72002BBDD088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA22804-7F5F-4746-83F1-72002BBDD088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42837A90-924C-4207-817B-A9E92FE231CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42837A90-924C-4207-817B-A9E92FE231CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42837A90-924C-4207-817B-A9E92FE231CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42837A90-924C-4207-817B-A9E92FE231CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

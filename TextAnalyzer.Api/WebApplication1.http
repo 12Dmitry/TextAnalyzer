@@ -1,0 +1,9 @@
+@WebApplication1_HostAddress = http://localhost:5175
+
+POST http://localhost:5175/api/TextAnalyze
+Content-Type: application/json
+
+"Привет мир привет!"
+
+
+###

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Настраиваем скроллбар для всех элементов с overflow */
+* {
+    scrollbar-width: thin; /* Для Firefox */
+    scrollbar-color: #312e81 transparent; /* Для Firefox (thumb, track) */
+}
+
+/* Для Chrome, Edge и Safari (WebKit) */
+::-webkit-scrollbar {
+    width: 6px; /* Чуть тоньше для элегантности */
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Полностью прозрачный фон */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #312e81; /* Indigo-900 */
+    border-radius: 20px; /* Закругление */
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Легкий контур */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4338ca; /* Indigo-700 при наведении */
+}
+
+/* Чтобы скролл не "прыгал", можно добавить отступ в aside */
+aside {
+    scrollbar-gutter: stable;
+}
+
